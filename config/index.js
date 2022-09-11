@@ -47,7 +47,7 @@ export const config = {
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://www.baidu.com/s?ie=utf-8&f=3&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%E7%96%AB%E6%83%85%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E6%B6%88%E6%81%AF&fenlei=256&rsv_pq=9ab265bc000127a9&rsv_t=ccbeYf11pM09VQWZAwvEKOTa2d9dPkmxevGNIfkOCYvOsG7pfJJao73RQhE&rqlang=cn&rsv_enter=1&rsv_dl=ts_1&rsv_sug3=6&rsv_sug1=3&rsv_sug7=100&rsv_sug2=1&rsv_btype=i&prefixsug=yiqin&rsp=1&inputT=2383&rsv_sug4=7315",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
-      // festivals: [
+      festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {"type": "*生日", "name": "宝宝", "year": "2000", "date": "08-16"},
         {"type": "节日", "name": "纪念日", "year": "2022", "date": "05-16"},
