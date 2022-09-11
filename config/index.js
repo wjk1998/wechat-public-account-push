@@ -22,7 +22,7 @@ export const config = {
    *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
    *    id: "oo1O_6mZvRtxDgK2TEIMBOM3hibs",
    *    // 你想对他发送的模板消息的模板ID
-   *    useTemplateId: "2XaBhaTVF1hBTcr6H45dsRn94oN_GesQe0X-Zk0HOzA",
+   *    useTemplateId: "2GdjUA32H4p2Whud4IJeshIb9jT8uccqYkk9iWR9xYs",
    *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
    *    openUrl: "https://wangxinleo.cn"
    *   },
@@ -35,7 +35,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oo1O_6mZvRtxDgK2TEIMBOM3hibs",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "2XaBhaTVF1hBTcr6H45dsRn94oN_GesQe0X-Zk0HOzA",
+      useTemplateId: "2GdjUA32H4p2Whud4IJeshIb9jT8uccqYkk9iWR9xYs",
       // 所在省份
       province: "贵州",
       // 所在城市
@@ -108,7 +108,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "2XaBhaTVF1hBTcr6H45dsRn94oN_GesQe0X-Zk0HOzA",
+  CALLBACK_TEMPLATE_ID: "2GdjUA32H4p2Whud4IJeshIb9jT8uccqYkk9iWR9xYs",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
