@@ -22,7 +22,7 @@ export const config = {
    *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
    *    id: "oo1O_6mZvRtxDgK2TEIMBOM3hibs",
    *    // 你想对他发送的模板消息的模板ID
-   *    useTemplateId: "2GdjUA32H4p2Whud4IJeshIb9jT8uccqYkk9iWR9xYs",
+   *    useTemplateId: "x7RrxTyDTnnVMUfsrgDgi0bPunvxaptFHYedqtH82Ak",
    *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
    *    openUrl: "https://wangxinleo.cn"
    *   },
@@ -35,7 +35,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oo1O_6mZvRtxDgK2TEIMBOM3hibs",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "2GdjUA32H4p2Whud4IJeshIb9jT8uccqYkk9iWR9xYs",
+      useTemplateId: "x7RrxTyDTnnVMUfsrgDgi0bPunvxaptFHYedqtH82Ak",
       // 所在省份
       province: "贵州",
       // 所在城市
@@ -45,7 +45,7 @@ export const config = {
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://www.baidu.com/s?ie=utf-8&f=3&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%E7%96%AB%E6%83%85%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E6%B6%88%E6%81%AF&fenlei=256&rsv_pq=9ab265bc000127a9&rsv_t=ccbeYf11pM09VQWZAwvEKOTa2d9dPkmxevGNIfkOCYvOsG7pfJJao73RQhE&rqlang=cn&rsv_enter=1&rsv_dl=ts_1&rsv_sug3=6&rsv_sug1=3&rsv_sug7=100&rsv_sug2=1&rsv_btype=i&prefixsug=yiqin&rsp=1&inputT=2383&rsv_sug4=7315",
+      openUrl: "http://www.gzy.edu.cn",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -108,7 +108,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "2GdjUA32H4p2Whud4IJeshIb9jT8uccqYkk9iWR9xYs",
+  CALLBACK_TEMPLATE_ID: "x7RrxTyDTnnVMUfsrgDgi0bPunvxaptFHYedqtH82Ak",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
