@@ -66,23 +66,16 @@ export const config = {
       ]
     },
     {
-      name: "测试",
-      id: "oo1O_6m2n5FcThFLNhDaloQuhblg",
-      useTemplateId: "pKr6nZ2JYazYE-8kf4UdrTJguRa7CYXrgZ0EIMTkCQQ",
-      province: "贵州",
-      city: "贵阳",
-      horoscopeDate: '01-11',
-      horoscopeDateType: '今日',
+      name: "",
+      id: "",
+      useTemplateId: "",
+      province: "",
+      city: "",
+      horoscopeDate: '',
+      horoscopeDateType: '',
       openUrl: "https://wangxinleo.cn",
-      festivals: [
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "宝宝", "year": "1998", "date": "01-11"},
-        {"type": "节日", "name": "", "": "", "date": ""},
-      ],
-      customizedDateList: [
-         // 在一起的日子
-        {"keyword": "love_day", date: "2022-05-16"},
-      ]
+      festivals: [],
+      customizedDateList: []
     },
     {
       name: "老婆2",
